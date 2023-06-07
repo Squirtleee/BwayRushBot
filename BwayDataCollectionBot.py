@@ -87,7 +87,7 @@ for post in subreddit.hot(limit=post_limit):
 
 
 # write and format the result to a file
-f = open("/Users/jesshuang/Desktop/Broadway_Bot/RushData.txt", "w")
+f = open("RushData.txt", "w")
 f.write("Current Broadway Show Rush Ticket Data\n")
 f.write("This data collecting bot looks at the last "+str(post_limit)+" posts on the Broadway Sub\n")
 f.write("\n")
